@@ -28,7 +28,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
                 +
                 "$COLUMN_EMAIL TEXT,"
                 +
-                "$COLUMN_PHONE TEXT ")
+                "$COLUMN_PHONE TEXT )")
         db.execSQL(createTableQuery)
     }
 
